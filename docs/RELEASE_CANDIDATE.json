@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "installed_or_flashed": false,
+  "artifacts": {
+    "reporter": {
+      "path": "source/reporter/dist/SynaReporter.exe",
+      "bytes": 42907706,
+      "sha256": "7d4c0803907c72646d65b03d1027fc0193a85845336b136b03bba3aa16303053"
+    },
+    "installer": {
+      "path": "source/installer/windows/dist/SynaInstaller-1.0.0.exe",
+      "bytes": 102594081,
+      "sha256": "d96fdd6fa43f6af0013e8060bc03d2f6559e5ce4a75784d46eaa33df79e5b70f"
+    },
+    "firmware": {
+      "path": "firmware/build/xiaozhi.bin",
+      "bytes": 3762016,
+      "sha256": "701d6dde06cc308ec1040c7392cc701735b8c95e1d13f2115452d8fba12b7acb"
+    }
+  },
+  "embedded_notices": {
+    "reporter": 444,
+    "installer": 444
+  },
+  "installer_self_test": {
+    "payload": true,
+    "backend": true,
+    "backend_output": "{\"event\": \"verified\", \"message\": \"Payload verified\", \"files\": 8}\r\n",
+    "esptool": true,
+    "esptool_output": "esptool v5.4.0\r\n5.4.0\r\n",
+    "reporter_mode": true,
+    "chinese_protocol": true
+  }
+}

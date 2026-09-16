@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-16",
+  "mode": "upgrade",
+  "board": "Waveshare ESP32-S3-RLCD-4.2 16MB",
+  "checks": {
+    "full_backup_size": true,
+    "full_readback_size": true,
+    "backup_hash": true,
+    "firmware_exact_match": true,
+    "outside_app_unchanged": true,
+    "reporter_exact_match": true,
+    "worker_success": true
+  },
+  "app_offset": "0x20000",
+  "firmware_sha256": "e649f596410ecca44c1fcf6716871c0447b7c7e9e3f5b78a848fbbc1bc5cfcc6",
+  "reporter_sha256": "0a0a4c5db25a094853934f38e2777156288eb1ecece44c84db5de1fa98e6718a",
+  "installer_sha256": "26e22a5af8d11b507b3f590ff794efc65969c0797c13cc1c3797b576bb9eb002",
+  "user_confirmed_installer_success": true,
+  "pending": [
+    "single_turn_voice"
+  ],
+  "raw_private_backups_included": false,
+  "user_confirmed_runtime": {
+    "screen_and_boot": true,
+    "wifi_and_computer_binding_runtime": true,
+    "reporter_and_board_data_refresh": true
+  }
+}

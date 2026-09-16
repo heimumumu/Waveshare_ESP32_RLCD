@@ -1,0 +1,765 @@
+{
+  "description": "Selected snapshot; hashes refer to source before publication edits.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "source_sha256": "ccf186e2b77edd935eeb660e08a9dcedad9da8fba8ea1c6216fcb4e0d75ed8e9"
+    },
+    {
+      "path": "VERSION",
+      "source_sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "source_sha256": "147897a4ceedf7f9c399c298e58644a9037166a6ea8ca3ca6b2ce7853cdf216a"
+    },
+    {
+      "path": "reporter/build_macos.command",
+      "source_sha256": "e6c7b62060c3a3ac60d14f940ad9e7812796e7f3ef2c4747199a5b3da690b55e"
+    },
+    {
+      "path": "reporter/build_release.ps1",
+      "source_sha256": "956b0d8549eaeaad9b4fb2eac74741ad5a27425c0d129d7220ce7bbe2230afd7"
+    },
+    {
+      "path": "reporter/codex_runtime.py",
+      "source_sha256": "368ee7f50350c63a0ddacacf9db050bcb4b6f147407438cf3660ca1d5abe5e10"
+    },
+    {
+      "path": "reporter/MACOS.md",
+      "source_sha256": "28686f358e98ac9c1178a24a8dfa1be4739154f28628dc2a0d345827aa5d4a92"
+    },
+    {
+      "path": "reporter/macos_media.py",
+      "source_sha256": "13606c00708e73f982b653295ad2195c7158d8cfe617dbc0cce8dfe840c9cc61"
+    },
+    {
+      "path": "reporter/macos_metrics.py",
+      "source_sha256": "7ef2825930f96a91d9b448e2d0e3a4df034c08f3b785fb5d11e28af8175e921f"
+    },
+    {
+      "path": "reporter/macos_service.py",
+      "source_sha256": "90b409b0270c6d33740ee8ef0a9882bc2779312eabeb515b2217cbc416f9a607"
+    },
+    {
+      "path": "reporter/macos_thermal.c",
+      "source_sha256": "bae51ee75d9aab2c9bc7a0d5f7450504185d67e97d7fb2a395dea876b95e3216"
+    },
+    {
+      "path": "reporter/media_monitor.py",
+      "source_sha256": "e70aa56ae5539b0a58955b1245fc97f94b318df6dbf29d0b3c77174b1a98c34d"
+    },
+    {
+      "path": "reporter/native_ui.swift",
+      "source_sha256": "219a205c38616177b08bc5de5d8e4a70e7e351da0d398a92401be4219c295163"
+    },
+    {
+      "path": "reporter/platform_support.py",
+      "source_sha256": "d40a7f78c94b78684e24e5339d2855adf20549210ea9085fc50188f6013103cf"
+    },
+    {
+      "path": "reporter/README.md",
+      "source_sha256": "9afa615cfe2c94f8944758cf149be737746737167e520c95b48c157a82631513"
+    },
+    {
+      "path": "reporter/reporter.py",
+      "source_sha256": "a00ba259f5feec20edf8062b478a86a0d58de8955eb39a9d734a422e2bf35358"
+    },
+    {
+      "path": "reporter/requirements-build.txt",
+      "source_sha256": "295021c50a3e5f6a6b810f78942548a0bc21a6e91f9dfae027b901cbff2e2eac"
+    },
+    {
+      "path": "reporter/requirements.txt",
+      "source_sha256": "172c792afc95c94c0ed59e0422b63734ba3048b8a221b2d388f2236ddeaacaad"
+    },
+    {
+      "path": "reporter/start.command",
+      "source_sha256": "1a4489b7bbe7c5fca3ee1043d1cee16bcc05f335c8f2b1d9b5a1649295cfc235"
+    },
+    {
+      "path": "reporter/start.ps1",
+      "source_sha256": "ca561917865218d5425aa945a7352d7b959d57e8ec4f7df1cc92ebf30874d795"
+    },
+    {
+      "path": "reporter/SynaReporter.spec",
+      "source_sha256": "0dfef0b4c5c757bf6b3e5a6e83eace40663be5bc8dc1b193be78021a81d91b0f"
+    },
+    {
+      "path": "reporter/test_codex_runtime.py",
+      "source_sha256": "298ef330a15f0b17377d990ed2c2c9749f91a906c750f122a0a275c16fb85536"
+    },
+    {
+      "path": "reporter/test_device_status.py",
+      "source_sha256": "13d6fd777c7ec9502847f7d261c3f0f9eb0d3ef681effaedfa22804a9b4f3301"
+    },
+    {
+      "path": "reporter/test_installer_startup.py",
+      "source_sha256": "6be809479ec14e4a1d5d41f6bb97f407c5519d6ccfbc7678d480e6f24c9af490"
+    },
+    {
+      "path": "reporter/test_macos.py",
+      "source_sha256": "b13008c46de81f7617bcb05741cb33e13948bf8f8f2a703043c71e00ed3e02f4"
+    },
+    {
+      "path": "reporter/test_macos_media.py",
+      "source_sha256": "003568c6f606cf6511aff75e7a70dc8d356bd0160e12ccc79a3d53a83f970d0d"
+    },
+    {
+      "path": "reporter/test_macos_metrics.py",
+      "source_sha256": "6c7cade89b91eca966231ba28a88c0a5bfcbb5103dd7c36e85f123a545334c82"
+    },
+    {
+      "path": "reporter/test_media_monitor.py",
+      "source_sha256": "1afc96682bf124c3bf04940fda87863bb88a905ec12a38d75d07e8da91e72536"
+    },
+    {
+      "path": "reporter/test_reporter.py",
+      "source_sha256": "99be137d24352b3446f3ecf9f3f7a479de4f32e2365b4bb23a0ba4442e31dbc5"
+    },
+    {
+      "path": "reporter/test_windows_ui.py",
+      "source_sha256": "60299004745372efb1b61952a661c62a472fa5f05284eaed792acc684f271f30"
+    },
+    {
+      "path": "reporter/WINDOWS-UI.md",
+      "source_sha256": "110272505b34d685f8c58d14558a0b97a7e00904c637834a6c12cfe11534f42d"
+    },
+    {
+      "path": "reporter/windows_ui.py",
+      "source_sha256": "88c55d363ec3969eb3fb98ba50f75e32cf23ce9a579cefd35365d901ef63c086"
+    },
+    {
+      "path": "reporter/installer/install.cmd",
+      "source_sha256": "23bcb8220f3a21f18b575bb4d0c77761645cd7beb5b465964e987d4ddafa7944"
+    },
+    {
+      "path": "reporter/installer/uninstall.cmd",
+      "source_sha256": "d354a246b8e74e368d3685f0ace98f9874e1ae21aec5bd718cee276ce0939883"
+    },
+    {
+      "path": "xiaozhi/apply_ui_overlay.py",
+      "source_sha256": "039bbb0b881b63a566ca5fb91f7392c7573d3637b3a37a1a74640af8b786e87a"
+    },
+    {
+      "path": "xiaozhi/build_macos.sh",
+      "source_sha256": "0bb1f7d6ad1635aa4ef59f146f16a82bd3bb5b15c593e42d2c8f58943369d4d3"
+    },
+    {
+      "path": "xiaozhi/build_windows.ps1",
+      "source_sha256": "22f4e46630f13838295a72d24d10be1222e1bbcecf17d9e44e1063e3e8a39de4"
+    },
+    {
+      "path": "xiaozhi/enter-idf.ps1",
+      "source_sha256": "afdcae1627f118ac85827c2bd87fc6777ae0f527b6881b773a6012f756ff2636"
+    },
+    {
+      "path": "xiaozhi/README.md",
+      "source_sha256": "78095eb675fc6b217f0d316dcb3332947a6aac53ea5ab1fcc66f41b616d8519b"
+    },
+    {
+      "path": "xiaozhi/requirements-firmware.txt",
+      "source_sha256": "436e085538ca27f4edde578a7d50544f27ee89e5f159134ef0fb9bd0b6dde272"
+    },
+    {
+      "path": "xiaozhi/upstream.lock",
+      "source_sha256": "5c5391992616f061726bb9bc7a2bee531a5c682df9d0621c0a3cc060f53decba"
+    },
+    {
+      "path": "xiaozhi/WINDOWS-TOOLCHAIN.md",
+      "source_sha256": "f69c345200574e02f58ab578065696080def51a5eabb4d8c3a854eb51919758d"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/api_balance_service.cc",
+      "source_sha256": "35872c5c7715137c99e10ddc1ef654871cb31970db85ab54f3662e96d84fe8f4"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/api_balance_service.h",
+      "source_sha256": "044caae6ec241e21914ed9d09f6cfc6bb906659fb1dacabe54db43e2a7fe955d"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/assets.h",
+      "source_sha256": "8b086ffc31a5cb2f81579dd5c4b3781420a539f9bc5fb08d08960efa019023d7"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/config.h",
+      "source_sha256": "759527cc9fe3fa8ff4ea3092aba8d866ae9cb7713b093c5caa92abcc0dd9d15a"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/config.json",
+      "source_sha256": "1da9fe6c289c6e92ddacb8df067c68553ef63d9985a0d495445db58bd41bab2f"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/custom_lcd_display.cc",
+      "source_sha256": "4a8118b213cc4e486b94340f6f5c05acb9113ffbb11e5e660b4c8c7670cc0e93"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/custom_lcd_display.h",
+      "source_sha256": "93be0fe4413cc8d85ca60d50d32a24a21d27b6cc3c24f4d31b08f044b26cf26d"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/environment_service.cc",
+      "source_sha256": "75f4a68715721c36afcfbc53b5080dd478f815d06d2bbd404d2cb6fcf5ddf9b2"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/environment_service.h",
+      "source_sha256": "6f7092e952c89813a137fca7a5df72bd33594ce083a647ad358f94bbdd8f637c"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/FONT-ARIMO-OFL.txt",
+      "source_sha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/FONT-OFL.txt",
+      "source_sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/FONT-SOURCE.md",
+      "source_sha256": "ef05db88a9a35182366aa29632b562e8d342d6241d127e1b15cd528aec0dcf47"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/FONT-UNIFONT-COPYING.txt",
+      "source_sha256": "5a65797606332f2f63057fd81ea0ff35f74043583515bf900ee9b42efa8176a6"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/panel_button_gestures.h",
+      "source_sha256": "997c7c23b3d4cf39c0de3dbc82cd5fee33286cf62511866289baf19bfdac6798"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/README.md",
+      "source_sha256": "e9c7d6a917fbeb65753aa32982716cc805eccecde756e1cb74982771e6bfadbf"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/reporter_service.cc",
+      "source_sha256": "d57928eac865fef3f40d19bb2464ff99b5785ac19b270dd80693eb8e8b3e8937"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/reporter_service.h",
+      "source_sha256": "54d555d4e10addacec71e7ea5c7d56685597538380f42152bb32b01386f659a5"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/settings_portal_service.cc",
+      "source_sha256": "3b72913acd54e703eb5186d5e6b0d55e4889d66dcd490774f73afb87f7d9d075"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/settings_portal_service.h",
+      "source_sha256": "fdc040b2a8dc75b3509cd0b5404d321b78f041bd7b2bb075344f33dd7d29c585"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/todo_service.cc",
+      "source_sha256": "2ee871ec70d7b10d60b0f5348511914a88d7150c80e54491e47e7c4f8bdf4842"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/todo_service.h",
+      "source_sha256": "fa0901d4bea74f3b834c0c792e625db42dc92e981407943457d698c8703c4bbd"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui.c",
+      "source_sha256": "eced9957e161408f937e607464c92f74c45211f6e8549097e642907e32e37ec9"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui.h",
+      "source_sha256": "26311f60222ff839bf451798f447ebc7b2f2c6012585593fb17d30cbaecdafd8"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_fonts.h",
+      "source_sha256": "dbdde62e5e635142f34ca2cce6c31cb182e3c0e02b2af9a11d8f182ff84061ad"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_font_11_regular.c",
+      "source_sha256": "031675dbdaa7fd4396fff467547d9d4226e25fecf8d0268b84bb5ed3baef0327"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_font_14_cjk.c",
+      "source_sha256": "c5c78c7b9ddcf7043be7bf66220b7d8a3d29d543aa7a904a163e447547a23832"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_font_14_regular.c",
+      "source_sha256": "f911b97869ba700f73bb342f07a89a7b589031f2115a69e0b30f523911a9c9a2"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_font_18_regular.c",
+      "source_sha256": "7577bfb8fb3706f3f347ef179f11012829da0f4462af2ac8001c7e0875ece866"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_font_28_brand.c",
+      "source_sha256": "b946f2486b3a0b31182192fb1b79fa9c9cc9ae4d4cf51975438ea00ea8400b13"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_pc_connected.c",
+      "source_sha256": "26f3dd70965223e7894e70335fb30ee96ed8c62eaeab549d68afef71e9c0ce24"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_pc_disconnected.c",
+      "source_sha256": "5cbf1be76e9aa500a6326d5434ff8c2f9765755140dae5119d5f0751c6a64627"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_performance_base.c",
+      "source_sha256": "3359810aa855133c661b950544c918bf362143319e7ebb9e1de6f8d931850473"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_screen_base.c",
+      "source_sha256": "70257a016a2139bf80c46b84d82c78a31a5f933cc28802c8a8b4ea531de747b4"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_status_done.c",
+      "source_sha256": "435dbadf069b74fb57a2d252144fb5d7a3ca53e6dc306f1b68afdb085da6adb0"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_status_idle.c",
+      "source_sha256": "b54b77cfe0eda334cd032bf1cb6ced8b7b609df42e0c1a3e28e299e1571da256"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_status_offline.c",
+      "source_sha256": "af40b9e28a27be047b5b89332383268133eb96e530f92dd8e84b2f9f91721b3f"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_status_waiting.c",
+      "source_sha256": "1441b93c0655db30a8a83d7bf75a8e177643971a7ce5e2825b717204fdc0c2da"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_status_working.c",
+      "source_sha256": "4cb9c191872e14b1b7cb0f230baef02e0d097e45739361df83e03a137cec493e"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_syna_base.c",
+      "source_sha256": "80110db57c224ba23dc13d3c3c72e5811957fd8e7e91f6e5324c912d582468fa"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_syna_speech.c",
+      "source_sha256": "a24e12b3d0cb27067572f8739e523b8d9487839a0d3ffe71dce97c347c00ad16"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_syna_todo_checked.c",
+      "source_sha256": "2b58b69764ef1bc6d921a7da8a38387991c1dee843744abe880bdc0821b39a64"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_syna_todo_unchecked.c",
+      "source_sha256": "feb8b225f4dceb5b3ba0eec8283108aff568f8760e101d312d237d6cfd59bd82"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_syna_wallet.c",
+      "source_sha256": "b67c405c57ef4113ae1168f0a0a3d17b42b95ab735666ee59536f7612fd2121c"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_wifi_connected.c",
+      "source_sha256": "de067c15ef8a86ca24461a89f291c06bf8b9b22f137b38f76e9a979f69baf655"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_wifi_connecting.c",
+      "source_sha256": "3bcdd194607c742e2c3c333d7c50218db5e5cd9342d6f6456662fdff96404ff5"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_wifi_provisioning.c",
+      "source_sha256": "3f25299a22cf4d9b658f471ddfa72aee964dcefae7105cb2dc5d04b3922cdc59"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_wifi_unconfigured.c",
+      "source_sha256": "faa7b41bc7a63c6e2f3ef5b8f666038302e972fd692487249cd143d20a9e79b0"
+    },
+    {
+      "path": "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/waveshare-s3-rlcd-4.2.cc",
+      "source_sha256": "4f7cdee83b94869711e6222cabaf2e254d62c876f49ee1f4beace2c59fe14cf7"
+    },
+    {
+      "path": "installer/macos/build.py",
+      "source_sha256": "1a1327b2e0eb594651547d6272b1ba52314f06d33e85d579fb1e728dfc74efc4"
+    },
+    {
+      "path": "installer/macos/Installer.swift",
+      "source_sha256": "11bb6649c923b6eaca5924222b5b983b08e4a0899915ecce6c74be9aa2876b69"
+    },
+    {
+      "path": "installer/macos/README.md",
+      "source_sha256": "949a48ba92e174d1dfd355d2d884fdfe650313f022a722d4ac2c457f073b6e48"
+    },
+    {
+      "path": "installer/macos/requirements-build.txt",
+      "source_sha256": "633b001946a1cd6a1b1243e98652c6ff64cbfa5991bbaa208602b0907499f690"
+    },
+    {
+      "path": "installer/macos/test_worker.py",
+      "source_sha256": "139178b8d6e3b5c6728b29b6077ebcd1db3add01719e6db6624356758f9698e8"
+    },
+    {
+      "path": "installer/macos/worker.py",
+      "source_sha256": "5fa5b2b4ddad9963ace35f7de1a0d13e52698034cd2f75db775bdf90fa3f4114"
+    },
+    {
+      "path": "installer/macos/\u4f7f\u7528\u8bf4\u660e.md",
+      "source_sha256": "434d3688772d410ec4c400d572b2fa51e107ad01ebea8f873797a8888b8adec9"
+    },
+    {
+      "path": "installer/windows/backend_entry.py",
+      "source_sha256": "2cea8f081e140865561ba21372026abcf5c70200ec4b595e1fc1b758ccd88497"
+    },
+    {
+      "path": "installer/windows/build_standalone.py",
+      "source_sha256": "2d0f653d638cd06d27fbc204275a760ac09524efe12fb006c9282431f8fcacbc"
+    },
+    {
+      "path": "installer/windows/installer_ui.py",
+      "source_sha256": "1777d232cd1677c484d44bb07b200dd8cfaf550936dc5ae8e061efec023bc3d8"
+    },
+    {
+      "path": "installer/windows/install_reporter.ps1",
+      "source_sha256": "8f033efc515fc1da3bdac8b90bf0ddb3087e685797526925f7c9108ed14a4d8c"
+    },
+    {
+      "path": "installer/windows/partitions.py",
+      "source_sha256": "cf382f4b7ef08295ef7792295c5e0bc4da690d0191c8254ea157db0bef48c682"
+    },
+    {
+      "path": "installer/windows/prepare_payload.py",
+      "source_sha256": "0711290f04d92b847fedd4ccb376f3057b0ffec42793ef44f316b82a862ab7b8"
+    },
+    {
+      "path": "installer/windows/README.md",
+      "source_sha256": "3b27137c53f38ab17733b27d72ce5ac42adef13640723bb0a4d81d1fc03d643b"
+    },
+    {
+      "path": "installer/windows/test_installer.py",
+      "source_sha256": "ff28c6cf8843f22e675707b62664e2d84abaa6021c7d62aa8f6169ce50b157ea"
+    },
+    {
+      "path": "installer/windows/worker.py",
+      "source_sha256": "9567e6a205f84ffe627c19c352005298dc00ce85a128126ace4e027a65db5de5"
+    },
+    {
+      "path": "simulator/CMakeLists.txt",
+      "source_sha256": "cb44bf3c07a0a7d4b945e5139e6c1afd4be50e737a5f66a217b659731fd8ab7d"
+    },
+    {
+      "path": "simulator/lv_conf.h",
+      "source_sha256": "d01288dac0adaec66f173d1e073e5f3622b759800932ccf69498c9e86aa4ee43"
+    },
+    {
+      "path": "simulator/README.md",
+      "source_sha256": "a671df568c36e0d3c8795ccb69f938891d97fea56f78c145dccfb8952466748b"
+    },
+    {
+      "path": "simulator/assets/generate_assets.ps1",
+      "source_sha256": "92640a732ca750ccae137086c3c503c0a7764fed909e0b3567981b716bad92a8"
+    },
+    {
+      "path": "simulator/assets/generate_ui_fonts.py",
+      "source_sha256": "46181ece20fc148d09a1356f32962f4c8af2d49c83648354e979fe0b5991f6ad"
+    },
+    {
+      "path": "simulator/assets/README.md",
+      "source_sha256": "67e4bb626902bccc8bc45a95d80fda99dd8ed51e0db007145a56c00263061a97"
+    },
+    {
+      "path": "simulator/assets/fonts/Arimo-OFL.txt",
+      "source_sha256": "c46fda6859efb80c0a3c1faa868908a3d2fcb26eb7fd9602d73bebeec21bca3a"
+    },
+    {
+      "path": "simulator/assets/fonts/Arimo-Regular.ttf",
+      "source_sha256": "41b22bc8f0b51f932825d37bc55b5eb6ba67dfe599a626e4aff2b43b624f9f8c"
+    },
+    {
+      "path": "simulator/assets/fonts/cjk-codepoints.json",
+      "source_sha256": "7fbbe614d8827b5f08bd027376dec2d6cc97ffb38073a26c3107daa85f7549ec"
+    },
+    {
+      "path": "simulator/assets/fonts/NotoSansCJKsc-Regular.otf",
+      "source_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "path": "simulator/assets/fonts/OFL.txt",
+      "source_sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "simulator/assets/fonts/requirements.txt",
+      "source_sha256": "ef2e5080ce8af28f7e4e2b5c2375f985985f35e811aea46f358bc2888673eeef"
+    },
+    {
+      "path": "simulator/assets/fonts/SOURCE.md",
+      "source_sha256": "ef05db88a9a35182366aa29632b562e8d342d6241d127e1b15cd528aec0dcf47"
+    },
+    {
+      "path": "simulator/assets/fonts/unifont-16.0.04.hex.gz",
+      "source_sha256": "f9c8c7802453f47be02677176aeac2342ee96d354fad7a26cedcce48e68e1d9f"
+    },
+    {
+      "path": "simulator/assets/fonts/Unifont-COPYING",
+      "source_sha256": "5a65797606332f2f63057fd81ea0ff35f74043583515bf900ee9b42efa8176a6"
+    },
+    {
+      "path": "simulator/assets/source/ai_mascot_generated.png",
+      "source_sha256": "b3689a1600fc00f144464286a97a9bcd8d772dc19dedf718686cff51a1e20fa2"
+    },
+    {
+      "path": "simulator/assets/source/ciallo_maid_pixel.png",
+      "source_sha256": "5faeac41d6cc65fd1db48e77a3640b98acec80c13e16f0dbc0671dd614606b85"
+    },
+    {
+      "path": "simulator/assets/source/ciallo_maid_pixel_transparent.png",
+      "source_sha256": "8f9ef2284dc0d493bce35a2dc76c6f680457328f5815b76951c4631d5ee730d4"
+    },
+    {
+      "path": "simulator/assets/source/performance_icon_sheet.png",
+      "source_sha256": "a6df88fab30b61225125d11b30bb11299bde1c85aed6826def317ddccfbf4e33"
+    },
+    {
+      "path": "simulator/assets/source/icons/agent_state.png",
+      "source_sha256": "98200ec6f402d240e8aaa595a3e26f3e35291692ea46eae49cfd8d78bf8162a9"
+    },
+    {
+      "path": "simulator/assets/source/icons/battery.png",
+      "source_sha256": "338f78cd3f40e64ded48b06d31da250c89d2bf42f5b6d19cec40bf2237adc6d6"
+    },
+    {
+      "path": "simulator/assets/source/icons/cellular.png",
+      "source_sha256": "876e4fda265e99172129c3068cceac279e47c933e0702006ea07356f68857d40"
+    },
+    {
+      "path": "simulator/assets/source/icons/device.png",
+      "source_sha256": "6ace11f77dd52d497ca50d1d246694e9c00c897b1bff38cb1bc0f23d6e203b82"
+    },
+    {
+      "path": "simulator/assets/source/icons/humidity.png",
+      "source_sha256": "4a0749fc48742bdcde75531d86184d451984f11f835ef43deafeb4c8a657b56c"
+    },
+    {
+      "path": "simulator/assets/source/icons/thermometer.png",
+      "source_sha256": "6e31fe400a0788e4864ab36db7991157b9f82a1b7be2290eea0d9ed28b8861d9"
+    },
+    {
+      "path": "simulator/assets/source/icons/wifi.png",
+      "source_sha256": "324da05b94eb828bf43c5b9e3f9d30f2ad82dfae56a5fdfe663eb2f1856ea5b5"
+    },
+    {
+      "path": "simulator/assets/source/music_ui_icons/agent_status-v2.png",
+      "source_sha256": "c4d6576dc347d6e74893a801399e39efc5c456bd223b20d01abacae494724110"
+    },
+    {
+      "path": "simulator/assets/source/music_ui_icons/agent_status.png",
+      "source_sha256": "4718b8565e99cdb14d8c6435fffbfc17b20896f3d1ea551dae357bde61f8280e"
+    },
+    {
+      "path": "simulator/assets/source/music_ui_icons/artist.png",
+      "source_sha256": "c60374a96740bc96f2800206b287f33de6a454dcf3563bbfbbd9e585be8ef0be"
+    },
+    {
+      "path": "simulator/assets/source/music_ui_icons/battery-v2.png",
+      "source_sha256": "327e7132fdeda569940f59bd6de2086e25638af7532f8cd972978229b97bbdbd"
+    },
+    {
+      "path": "simulator/assets/source/music_ui_icons/battery.png",
+      "source_sha256": "bc30a9837e6b2b015f2d2072d5df68f66a2d338cdfc08b50821a36b3bfdef5cb"
+    },
+    {
+      "path": "simulator/assets/source/music_ui_icons/clock.png",
+      "source_sha256": "c97e2b50e13a1623ca78833424ba568679a955067000681d0ace4fa4d62eff48"
+    },
+    {
+      "path": "simulator/assets/source/music_ui_icons/desktop.png",
+      "source_sha256": "731f08721d542b02f123daf068661ba447530446170f1612265245c127ced234"
+    },
+    {
+      "path": "simulator/assets/source/music_ui_icons/humidity.png",
+      "source_sha256": "1b5b32230abcf7600019c2f4431c4220a85be378201bed47e075f535d7a666ff"
+    },
+    {
+      "path": "simulator/assets/source/music_ui_icons/laptop.png",
+      "source_sha256": "d131c7b68e9a5f62aa548538ae20299020c7de41747a5ee41aefa0901a69eb34"
+    },
+    {
+      "path": "simulator/assets/source/music_ui_icons/music_note.png",
+      "source_sha256": "3e24123f56e14335c4fffd11e375ff92d8e5764b96b55517dcfd9efb72e79a4d"
+    },
+    {
+      "path": "simulator/assets/source/music_ui_icons/thermometer.png",
+      "source_sha256": "d20ce2da17c33b87ed9f40b2021918db80141df28ee1060d8dd8ef545b08c10c"
+    },
+    {
+      "path": "simulator/assets/source/music_ui_icons/waveform.png",
+      "source_sha256": "df2f8722956bebf25efa07bd407aeb53f95e3ed4152727586c00343cef47a061"
+    },
+    {
+      "path": "simulator/assets/source/music_ui_icons/wifi.png",
+      "source_sha256": "24d25310759c581288dadb48819dbf82125045b76f058978b30563669795a5e1"
+    },
+    {
+      "path": "simulator/assets/source/syna_icons/api_wallet.png",
+      "source_sha256": "a2b23d1abf5f4a0e2689a30d0826b1da8c6322d179909a6be53a0b874bcad538"
+    },
+    {
+      "path": "simulator/assets/source/syna_icons/speech_bubble.png",
+      "source_sha256": "fad086b38dd7ef134e19f40f8996491e619dd34707613813a5ea4d91721ef24e"
+    },
+    {
+      "path": "simulator/assets/source/syna_icons/todo_checked.png",
+      "source_sha256": "61d93389c6307065cde59ece4121d5036072cf23cb7f641fad67f378077e7151"
+    },
+    {
+      "path": "simulator/assets/source/syna_icons/todo_unchecked.png",
+      "source_sha256": "2a8edfb7e42aee2936769cf677383327193331bb65d221500bcc14e668c495e0"
+    },
+    {
+      "path": "simulator/scripts/build.ps1",
+      "source_sha256": "f4ce7ddc30ade9a2dbdb4a5cbcf3ece3f3cd94c9feb3ede8a61b3bed315a3dc7"
+    },
+    {
+      "path": "simulator/scripts/configure.ps1",
+      "source_sha256": "f694aa2dfad5f438565dff0f6b0629947e68f53063247bc577e92255510591af"
+    },
+    {
+      "path": "simulator/scripts/run.ps1",
+      "source_sha256": "5ea6681fd94cb419df09f97b725a35cbda902c17e5a7ef3b916b0879b4cc65fa"
+    },
+    {
+      "path": "simulator/scripts/test.ps1",
+      "source_sha256": "4a5c6ac514e8cff3a3a5e56c5108ae8a76e85063eec746b543df44689104ae2e"
+    },
+    {
+      "path": "simulator/src/main.c",
+      "source_sha256": "c837a0485b450009d454df3e2159e95d5c615115dcadd64c878ef1b92651aa34"
+    },
+    {
+      "path": "simulator/src/assets/assets.h",
+      "source_sha256": "8b086ffc31a5cb2f81579dd5c4b3781420a539f9bc5fb08d08960efa019023d7"
+    },
+    {
+      "path": "simulator/src/assets/ui_font_11_regular.c",
+      "source_sha256": "031675dbdaa7fd4396fff467547d9d4226e25fecf8d0268b84bb5ed3baef0327"
+    },
+    {
+      "path": "simulator/src/assets/ui_font_14_cjk.c",
+      "source_sha256": "c5c78c7b9ddcf7043be7bf66220b7d8a3d29d543aa7a904a163e447547a23832"
+    },
+    {
+      "path": "simulator/src/assets/ui_font_14_regular.c",
+      "source_sha256": "f911b97869ba700f73bb342f07a89a7b589031f2115a69e0b30f523911a9c9a2"
+    },
+    {
+      "path": "simulator/src/assets/ui_font_18_regular.c",
+      "source_sha256": "7577bfb8fb3706f3f347ef179f11012829da0f4462af2ac8001c7e0875ece866"
+    },
+    {
+      "path": "simulator/src/assets/ui_font_28_brand.c",
+      "source_sha256": "b946f2486b3a0b31182192fb1b79fa9c9cc9ae4d4cf51975438ea00ea8400b13"
+    },
+    {
+      "path": "simulator/src/assets/ui_pc_connected.c",
+      "source_sha256": "26f3dd70965223e7894e70335fb30ee96ed8c62eaeab549d68afef71e9c0ce24"
+    },
+    {
+      "path": "simulator/src/assets/ui_pc_disconnected.c",
+      "source_sha256": "5cbf1be76e9aa500a6326d5434ff8c2f9765755140dae5119d5f0751c6a64627"
+    },
+    {
+      "path": "simulator/src/assets/ui_performance_base.c",
+      "source_sha256": "3359810aa855133c661b950544c918bf362143319e7ebb9e1de6f8d931850473"
+    },
+    {
+      "path": "simulator/src/assets/ui_screen_base.c",
+      "source_sha256": "70257a016a2139bf80c46b84d82c78a31a5f933cc28802c8a8b4ea531de747b4"
+    },
+    {
+      "path": "simulator/src/assets/ui_status_done.c",
+      "source_sha256": "435dbadf069b74fb57a2d252144fb5d7a3ca53e6dc306f1b68afdb085da6adb0"
+    },
+    {
+      "path": "simulator/src/assets/ui_status_idle.c",
+      "source_sha256": "b54b77cfe0eda334cd032bf1cb6ced8b7b609df42e0c1a3e28e299e1571da256"
+    },
+    {
+      "path": "simulator/src/assets/ui_status_offline.c",
+      "source_sha256": "af40b9e28a27be047b5b89332383268133eb96e530f92dd8e84b2f9f91721b3f"
+    },
+    {
+      "path": "simulator/src/assets/ui_status_waiting.c",
+      "source_sha256": "1441b93c0655db30a8a83d7bf75a8e177643971a7ce5e2825b717204fdc0c2da"
+    },
+    {
+      "path": "simulator/src/assets/ui_status_working.c",
+      "source_sha256": "4cb9c191872e14b1b7cb0f230baef02e0d097e45739361df83e03a137cec493e"
+    },
+    {
+      "path": "simulator/src/assets/ui_syna_base.c",
+      "source_sha256": "80110db57c224ba23dc13d3c3c72e5811957fd8e7e91f6e5324c912d582468fa"
+    },
+    {
+      "path": "simulator/src/assets/ui_syna_speech.c",
+      "source_sha256": "a24e12b3d0cb27067572f8739e523b8d9487839a0d3ffe71dce97c347c00ad16"
+    },
+    {
+      "path": "simulator/src/assets/ui_syna_todo_checked.c",
+      "source_sha256": "2b58b69764ef1bc6d921a7da8a38387991c1dee843744abe880bdc0821b39a64"
+    },
+    {
+      "path": "simulator/src/assets/ui_syna_todo_unchecked.c",
+      "source_sha256": "feb8b225f4dceb5b3ba0eec8283108aff568f8760e101d312d237d6cfd59bd82"
+    },
+    {
+      "path": "simulator/src/assets/ui_syna_wallet.c",
+      "source_sha256": "b67c405c57ef4113ae1168f0a0a3d17b42b95ab735666ee59536f7612fd2121c"
+    },
+    {
+      "path": "simulator/src/assets/ui_wifi_connected.c",
+      "source_sha256": "de067c15ef8a86ca24461a89f291c06bf8b9b22f137b38f76e9a979f69baf655"
+    },
+    {
+      "path": "simulator/src/assets/ui_wifi_connecting.c",
+      "source_sha256": "3bcdd194607c742e2c3c333d7c50218db5e5cd9342d6f6456662fdff96404ff5"
+    },
+    {
+      "path": "simulator/src/assets/ui_wifi_provisioning.c",
+      "source_sha256": "3f25299a22cf4d9b658f471ddfa72aee964dcefae7105cb2dc5d04b3922cdc59"
+    },
+    {
+      "path": "simulator/src/assets/ui_wifi_unconfigured.c",
+      "source_sha256": "faa7b41bc7a63c6e2f3ef5b8f666038302e972fd692487249cd143d20a9e79b0"
+    },
+    {
+      "path": "simulator/src/ui/ui.c",
+      "source_sha256": "c7596fbda1141559b09c1cf1fc2dc461a45ec9f1b4411c1627a94f800ad0578b"
+    },
+    {
+      "path": "simulator/src/ui/ui.h",
+      "source_sha256": "3168df267284f42c09f36533bec0732dcc141adec0511202bbf5e16f26c9bd09"
+    },
+    {
+      "path": "simulator/src/ui/ui_fonts.h",
+      "source_sha256": "dbdde62e5e635142f34ca2cce6c31cb182e3c0e02b2af9a11d8f182ff84061ad"
+    },
+    {
+      "path": "tests/check_panel_buttons.py",
+      "source_sha256": "ee6c549964f01e0a893169f482dae648d1357a1edf42abe7f5c40b7385d9ac5c"
+    },
+    {
+      "path": "tests/check_quota_stale.py",
+      "source_sha256": "4b7c7aa1dc047fc6bc0774eda8976fa17c6388a72377f038e0efccc83ecd6865"
+    },
+    {
+      "path": "tests/check_single_turn.py",
+      "source_sha256": "08af71e631cc6488834b8559da8aeb9ad9a61da225f0157dea598cc81a6b6e04"
+    },
+    {
+      "path": "tests/check_ui_branding.py",
+      "source_sha256": "dbe8a376fc19766d6b6c88d1408477c3088eedfd5a6b30a0178300cbb11da089"
+    },
+    {
+      "path": "tests/ui_branding.c",
+      "source_sha256": "9f4ac7515101dc4f7de2081bf37aa264c9293e4539b8e10e522d81962361a055"
+    },
+    {
+      "path": "release/licenses/esp-sr-2.4.7-LICENSE.txt",
+      "source_sha256": "d93487e2581f2eb696d85ede586c359a81fbf0ed2c2253353ed83076e093358a"
+    },
+    {
+      "path": "release/licenses/xiaozhi-MIT.txt",
+      "source_sha256": "0a5a839033bfe18fe75d32b50d9d028912cf876f69ef59c2791aeb2971335d05"
+    },
+    {
+      "path": "release/sign_release.py",
+      "source_sha256": "6ec8ea8aa89308cb519181b7a3bb7fb2d5972d37327ba5c136e4449510fc95c8"
+    },
+    {
+      "path": "release/keys/syna-release-public.pem",
+      "source_sha256": "e9bfde9cf4e31f3cdc93f544ee5112ab238c1a3a93ead49884331550092fdd71"
+    }
+  ]
+}

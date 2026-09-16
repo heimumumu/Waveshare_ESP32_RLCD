@@ -1,0 +1,7 @@
+psutil==7.0.0
+winrt-Windows.Foundation==3.2.1; sys_platform == "win32"
+winrt-Windows.Foundation.Collections==3.2.1; sys_platform == "win32"
+winrt-Windows.Media.Control==3.2.1; sys_platform == "win32"
+websocket-client==1.8.0
+pycaw==20251023; sys_platform == "win32"
+PySide6-Essentials==6.8.3; sys_platform == "win32"

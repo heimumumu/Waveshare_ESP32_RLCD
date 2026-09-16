@@ -1,0 +1,40 @@
+{
+  "installer_self_test": {
+    "payload": true,
+    "backend": true,
+    "backend_output": "{\"event\": \"verified\", \"message\": \"Payload verified\", \"files\": 8}\r\n",
+    "esptool": true,
+    "esptool_output": "esptool v5.4.0\r\n5.4.0\r\n",
+    "reporter_mode": true,
+    "chinese_protocol": true
+  },
+  "reporter_tests": {
+    "total": 66,
+    "passed": 53,
+    "skipped": 13
+  },
+  "installer_tests": 11,
+  "firmware_build": "pass",
+  "host_tests": [
+    "single_turn",
+    "quota_stale"
+  ],
+  "fresh_python_environment": true,
+  "existing_esp_idf_toolchain": true,
+  "installed_or_flashed": false,
+  "artifacts": {
+    "installer": {
+      "bytes": 100881226,
+      "sha256": "032f463d318bba985dcc4830367a1b816322f61f4655af5214c85999e4e7541c"
+    },
+    "reporter": {
+      "bytes": 41901253,
+      "sha256": "8254e77e946824342416750a66b8bba17df608f7dd620be01a784d636c89f0d2"
+    },
+    "firmware": {
+      "bytes": 3762016,
+      "sha256": "e649f596410ecca44c1fcf6716871c0447b7c7e9e3f5b78a848fbbc1bc5cfcc6"
+    }
+  },
+  "development_source_files_unchanged": 190
+}

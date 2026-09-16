@@ -1,0 +1,3 @@
+# Extra dependencies for the pinned Xiaozhi SPIFFS asset generator.
+numpy==2.4.6
+Pillow==11.3.0

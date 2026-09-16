@@ -1,0 +1,26 @@
+{
+    "manufacturer": "waveshare",
+    "type": "esp32-s3-rlcd-4.2",
+    "target": "esp32s3",
+    "builds": [
+        {
+            "name": "esp32-s3-rlcd-4.2",
+            "sdkconfig_append": [
+                "CONFIG_USE_WECHAT_MESSAGE_STYLE=n",
+                "CONFIG_USE_DEVICE_AEC=y",
+                "CONFIG_SR_WN_WN9_NIHAOXIAOZHI_TTS=n",
+                "CONFIG_USE_AFE_WAKE_WORD=n",
+                "CONFIG_USE_CUSTOM_WAKE_WORD=y",
+                "CONFIG_CUSTOM_WAKE_WORD=\"ni hao xi na\"",
+                "CONFIG_CUSTOM_WAKE_WORD_DISPLAY=\"你好希娜\"",
+                "CONFIG_CUSTOM_WAKE_WORD_THRESHOLD=15",
+                "CONFIG_SEND_WAKE_WORD_DATA=n",
+                "CONFIG_PANEL_FAR_FIELD_AGC=y",
+                "CONFIG_PANEL_FAR_FIELD_AGC_GAIN_DB=9",
+                "CONFIG_PANEL_FAR_FIELD_AGC_TARGET_DBFS=3",
+                "CONFIG_SR_MN_CN_NONE=n",
+                "CONFIG_SR_MN_CN_MULTINET7_QUANT=y"
+            ]
+        }
+    ]
+}

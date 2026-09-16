@@ -1,0 +1,6 @@
+repository=https://github.com/78/xiaozhi-esp32.git
+commit=5df5b7fb4da2b4d80e2b7f87285ec1f8a9ca565c
+commit_date=2026-08-31T00:50:58+08:00
+board=waveshare/esp32-s3-rlcd-4.2
+idf=6.0.2
+transport=websocket

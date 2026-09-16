@@ -1,0 +1,30 @@
+# Generated environments, payloads and binaries
+**/.venv*/
+**/__pycache__/
+**/build/
+**/build-macos*/
+**/dist/
+**/dist-macos*/
+installer/windows/Payload/
+installer/windows/Licenses/
+installer/windows/manifest.json
+installer/windows/payload_manifest.py
+reporter/release/
+release/artifacts/
+simulator/vendor/
+simulator/artifacts/
+simulator/assets/generated/
+*.pyc
+*.log
+.DS_Store
+.vscode/
+# Private runtime data and signing keys
+.env
+.env.*
+reporter.json
+full-flash.bin
+after-flash.bin
+private.pem
+*.key
+备份*/
+.codex-tmp/
