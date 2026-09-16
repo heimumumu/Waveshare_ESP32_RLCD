@@ -1,6 +1,6 @@
 # 希娜 Syna 1.0.0-rc.2（候选版）
 
-本轮统一更新项目账号与仓库地址，并重新打包。新文件尚待实机复验；此前的验收结果对应旧文件。详情见 [账号地址更新](ACCOUNT_UPDATE.md)。
+Windows Reporter and installer self-tests passed. This build still requires hardware acceptance; see RELEASE_CHECKLIST.md.
 
 适用于微雪 ESP32-S3-RLCD-4.2，16 MB Flash、8 MB PSRAM。
 
