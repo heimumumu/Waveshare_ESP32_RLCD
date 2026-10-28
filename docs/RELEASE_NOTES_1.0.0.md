@@ -1,6 +1,6 @@
 # 希娜 Syna 1.0.0-rc.2（候选版）
 
-Windows Reporter and installer self-tests passed. This build still requires hardware acceptance; see RELEASE_CHECKLIST.md.
+Windows Reporter 与安装器自检通过；独立应用 BIN 和完整 BIN 已完成本机刷写与读回校验，用户确认成功。
 
 适用于微雪 ESP32-S3-RLCD-4.2，16 MB Flash、8 MB PSRAM。
 
@@ -30,8 +30,10 @@ Windows Reporter and installer self-tests passed. This build still requires hard
 
 ## 当前状态
 
-Windows 本机安装、保留配置升级、亮屏、联网、绑定保留及性能数据显示已验收。语音、首次清空安装和另一台 Windows 测试待完成；macOS 本轮未重新验收。
+Windows 本机安装、保留配置升级、亮屏、联网、绑定保留及性能数据显示已验收。语音及另一台 Windows 测试待完成；macOS 本轮未重新验收。
 
 音乐进度为估算值。Windows 包未代码签名。完整验收与发布准备情况见 [发布检查表](RELEASE_CHECKLIST.md)。
 
 反馈时提供系统版本、安装模式和错误信息；不要公开完整 Flash 备份或含凭据的日志。
+
+小智语音的配网、激活与角色设置见 [小智配置说明](XIAOZHI_SETUP.md)。

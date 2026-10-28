@@ -1,12 +1,12 @@
 {
   "date": "2026-09-17",
   "scope": "Current export source files; generated directories and this self report excluded",
-  "files_scanned": 657,
+  "files_scanned": 659,
   "findings": [],
   "files": {
     ".gitignore": "84f90cd6a0789ccccefed896ab7f89a60c2041a136326515c63b4ea16061d383",
     "LICENSE": "ccf186e2b77edd935eeb660e08a9dcedad9da8fba8ea1c6216fcb4e0d75ed8e9",
-    "README.md": "ef2f3c053a04516ffc1c8128d044360673786463a3e4874e60079556ebb7d3bd",
+    "README.md": "35bddefa8c67dfd0da8c45d93eff4892b0b78739a57b7fbec63f3dc87343b5d5",
     "THIRD_PARTY_NOTICES.md": "2c9f48f6853f7ea381ea44ada90beedeba2671ea8fe632df7af364f1514a2ff0",
     "VERSION": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
     "docs/BUILD.md": "1da536bd06568959dfdbb4699396535c321cde5db880d173300a0e85a08749a8",
@@ -16,8 +16,8 @@
     "docs/HARDWARE_ACCEPTANCE.json": "f2b3fe32d81d61c0fef0c4336b3d047328cee32b157e634f3a8eb4adeb6047d6",
     "docs/RELEASE_CANDIDATE.json": "02e4546637762212e4b68c85ce63a23872fc66864b9693b9a9493722a244d98f",
     "docs/RELEASE_CANDIDATE.md": "eb9ec7a08ccf16096bedcea48bfc4506303cd675880d3b49227313b0d61ee299",
-    "docs/RELEASE_CHECKLIST.md": "552c359da57ea30148c71554542a827531f3b15f6ff803f83f9fe9b15e91f29f",
-    "docs/RELEASE_NOTES_1.0.0.md": "19b09a33e6141aee0f13cdaa479340dfca44195855d7b5c9e11b4ab34cd4f9d1",
+    "docs/RELEASE_CHECKLIST.md": "9b62d33b6a6ac3b4adf68341b993a747fca630abefddbf7bebdb8e7f4a5d2e15",
+    "docs/RELEASE_NOTES_1.0.0.md": "a2c0e686614968be07fec13cd0d5e9f0f4322f3d64f8a569ed17989143787291",
     "docs/RUNTIME_NOTICES.md": "7d18e494b0e75f9f60fbe3318d06143514b477779cec154f8b4de8292c7e82a6",
     "docs/SOURCE_EXPORT.json": "467b4e68058d16ab04bd19c85b18eebddefd7180f782d02454f820fb56565da3",
     "docs/SOURCE_PRIVACY_REVIEW.md": "01100d500a667d1c7c110e63643138a37bea7c398b290a14d2144e1f9c1b1c29",
@@ -660,6 +660,8 @@
     "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/ui_wifi_unconfigured.c": "faa7b41bc7a63c6e2f3ef5b8f666038302e972fd692487249cd143d20a9e79b0",
     "xiaozhi/overlay/main/boards/waveshare/esp32-s3-rlcd-4.2/waveshare-s3-rlcd-4.2.cc": "4f7cdee83b94869711e6222cabaf2e254d62c876f49ee1f4beace2c59fe14cf7",
     "xiaozhi/requirements-firmware.txt": "436e085538ca27f4edde578a7d50544f27ee89e5f159134ef0fb9bd0b6dde272",
-    "xiaozhi/upstream.lock": "5c5391992616f061726bb9bc7a2bee531a5c682df9d0621c0a3cc060f53decba"
+    "xiaozhi/upstream.lock": "5c5391992616f061726bb9bc7a2bee531a5c682df9d0621c0a3cc060f53decba",
+    "docs/BIN-FLASHING.md": "984519acefa53c63d232dbfb2867319fd1e7ac7042774f5e10ca4ae9b3c7d777",
+    "docs/XIAOZHI_SETUP.md": "70b3249ee88199daed68e384602a43ed3ab957ffb75152b10aa2cdb98ddc0223"
   }
 }
